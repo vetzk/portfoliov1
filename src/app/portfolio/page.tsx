@@ -23,7 +23,7 @@ const Portfolio: React.FunctionComponent<IPortfolioProps> = () => {
                     }
                 >
                     <Image
-                        src="/websitefurniture.png"
+                        src="/websitefurniture.PNG"
                         alt=""
                         fill
                         className="rounded-xl object-contain"
@@ -39,7 +39,7 @@ const Portfolio: React.FunctionComponent<IPortfolioProps> = () => {
                     }
                 >
                     <Image
-                        src="/websiteevent.png"
+                        src="/websiteevent.PNG"
                         alt=""
                         fill
                         className="rounded-xl object-contain"
@@ -53,7 +53,7 @@ const Portfolio: React.FunctionComponent<IPortfolioProps> = () => {
                     }
                 >
                     <Image
-                        src="/websitecar.png"
+                        src="/websitecar.PNG"
                         alt=""
                         fill
                         className="rounded-xl object-contain"
