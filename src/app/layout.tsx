@@ -15,28 +15,22 @@ import Navbar from "@/components/Navbar";
 //   weight: "100 900",
 // });
 
-const rubikMonoOne = Rubik_Mono_One({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-rubik-mono-one",
-});
-
 export const metadata: Metadata = {
-  title: "Alfred",
-  description: "Personal Portfolio",
+    title: "Alfred",
+    description: "Personal Portafolio",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={`${rubikMonoOne.variable} font-sans`}>
-        <Navbar />
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body>
+                <Navbar />
+                {children}
+            </body>
+        </html>
+    );
 }
